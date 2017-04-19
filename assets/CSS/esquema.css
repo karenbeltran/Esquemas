@@ -1,0 +1,52 @@
+.cuadroMayor {
+	width: 400px;
+	height: 400px;
+	margin-left: 500px;
+	margin-top: 50px;
+}
+.padre {
+	width: 200px;
+	height: 200px;
+}
+
+.hijo {
+	position: relative;
+	width: 100px;
+	height: 100px;
+}
+
+#verde{
+	background-color: green;
+}
+
+#aqua{
+	position: relative;
+	background-color: aqua;
+}
+
+#rosa{
+	position: absolute;
+	left: 600px;
+	top: 150px;
+	background-color: pink;
+}
+
+#morado{
+	position: absolute;
+	left:100px;
+	top:100px;
+	background-color: purple;
+
+}
+
+#silver{
+	background-color: silver;
+}
+
+#teal{
+	background-color: teal;
+	position: absolute;
+	top:0;
+	left: 0;
+
+}
